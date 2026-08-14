@@ -12,6 +12,10 @@
   <script defer src="script.js"></script>
 </head>
 <body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="ambient-shape shape-a" aria-hidden="true"></div>
+  <div class="ambient-shape shape-b" aria-hidden="true"></div>
   <header class="site-header">
     <a class="brand" href="#home" aria-label="返回首页">R<span>.</span></a>
     <nav aria-label="主导航">
@@ -30,12 +34,12 @@
   <main>
     <section class="hero" id="home">
       <div class="hero-copy reveal">
-        <p class="eyebrow">HELLO, I'M</p>
+        <div class="hero-kicker"><p class="eyebrow">HELLO, I'M</p><span class="status-pill"><i></i> OPEN TO IDEAS</span></div>
         <h1>Ryan<span>，</span><br>一个在创造中成长的大学生。</h1>
         <p class="hero-intro">我关注技术与设计的交叉点，喜欢把想法做成真实、好用且有温度的作品。</p>
         <div class="hero-actions">
-          <a class="button primary" href="#projects">看看我的作品 <span>↗</span></a>
-          <a class="button text-button" href="#contact">和我聊聊 →</a>
+          <a class="button primary magnetic" href="#projects">看看我的作品 <span>↗</span></a>
+          <a class="button text-button magnetic" href="#contact">和我聊聊 →</a>
         </div>
       </div>
       <div class="hero-visual reveal">
@@ -51,6 +55,8 @@
       <a class="scroll-cue" href="#about" aria-label="向下浏览">SCROLL <span>↓</span></a>
     </section>
 
+    <div class="marquee" aria-hidden="true"><div><span>DESIGN</span><b>✦</b><span>CODE</span><b>✦</b><span>CURIOSITY</span><b>✦</b><span>CREATE</span><b>✦</b><span>DESIGN</span><b>✦</b><span>CODE</span><b>✦</b><span>CURIOSITY</span><b>✦</b><span>CREATE</span><b>✦</b></div></div>
+
     <section class="section about" id="about">
       <div class="section-number">01</div>
       <div class="section-heading reveal">
@@ -61,8 +67,8 @@
         <p class="lead">目前就读于<span class="editable">你的大学 · 你的专业</span>，正在探索产品、设计与开发。</p>
         <p>课堂之外，我享受独立做项目、参加校园活动，也乐于认识不同领域的人。对我而言，学习不仅是积累知识，更是发现问题、动手验证，再把经验分享出去。</p>
         <div class="quick-facts">
-          <div><strong>20+</strong><span>课程与实践</span></div>
-          <div><strong>06</strong><span>个人项目</span></div>
+          <div><strong data-count="20" data-suffix="+">0</strong><span>课程与实践</span></div>
+          <div><strong data-count="6" data-pad="2">00</strong><span>个人项目</span></div>
           <div><strong>∞</strong><span>持续好奇</span></div>
         </div>
       </div>
@@ -89,17 +95,17 @@
         <h2>最近做过的<br>一些事情。</h2>
       </div>
       <div class="project-list">
-        <article class="project-card coral reveal">
+        <article class="project-card tilt-card coral reveal">
           <div class="project-meta"><span>01 / 产品设计</span><span>2026</span></div>
           <div class="project-graphic"><span>校园</span><b>+</b><span>效率</span></div>
           <div class="project-info"><div><h3>校园生活助手</h3><p>为大学生日常学习与活动设计的一站式信息工具。</p></div><a href="#" aria-label="查看校园生活助手项目">↗</a></div>
         </article>
-        <article class="project-card blue reveal">
+        <article class="project-card tilt-card blue reveal">
           <div class="project-meta"><span>02 / WEB 开发</span><span>2025</span></div>
           <div class="project-graphic code-graphic"><span>&lt;idea&gt;</span><b>→</b><span>online</span></div>
           <div class="project-info"><div><h3>知识分享小站</h3><p>记录课程笔记、学习方法与灵感的轻量内容网站。</p></div><a href="#" aria-label="查看知识分享小站项目">↗</a></div>
         </article>
-        <article class="project-card lime reveal">
+        <article class="project-card tilt-card lime reveal">
           <div class="project-meta"><span>03 / 社会实践</span><span>2025</span></div>
           <div class="project-graphic"><span>社区</span><b>×</b><span>青年</span></div>
           <div class="project-info"><div><h3>社区共创计划</h3><p>从访谈到落地，与伙伴一起改善社区公共空间体验。</p></div><a href="#" aria-label="查看社区共创计划">↗</a></div>
