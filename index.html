@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="一名热爱技术、设计与创造的大学生个人主页">
+  <title>Ryan | 大学生个人主页</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="返回首页">R<span>.</span></a>
+    <nav aria-label="主导航">
+      <button class="menu-toggle" aria-label="打开菜单" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">关于</a>
+        <a href="#skills">技能</a>
+        <a href="#projects">项目</a>
+        <a href="#experience">经历</a>
+        <a href="#contact">联系</a>
+      </div>
+    </nav>
+    <button class="theme-toggle" aria-label="切换主题">◐</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Ryan<span>，</span><br>一个在创造中成长的大学生。</h1>
+        <p class="hero-intro">我关注技术与设计的交叉点，喜欢把想法做成真实、好用且有温度的作品。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">看看我的作品 <span>↗</span></a>
+          <a class="button text-button" href="#contact">和我聊聊 →</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="portrait" aria-label="Ryan 的头像占位图">
+          <span>RY</span>
+          <small>STUDENT<br>& CREATOR</small>
+        </div>
+        <span class="floating-tag tag-one">DESIGN</span>
+        <span class="floating-tag tag-two">CODE</span>
+        <span class="floating-tag tag-three">IDEAS</span>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="向下浏览">SCROLL <span>↓</span></a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-number">01</div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>好奇心是我的<br>长期驱动力。</h2>
+      </div>
+      <div class="about-copy reveal">
+        <p class="lead">目前就读于<span class="editable">你的大学 · 你的专业</span>，正在探索产品、设计与开发。</p>
+        <p>课堂之外，我享受独立做项目、参加校园活动，也乐于认识不同领域的人。对我而言，学习不仅是积累知识，更是发现问题、动手验证，再把经验分享出去。</p>
+        <div class="quick-facts">
+          <div><strong>20+</strong><span>课程与实践</span></div>
+          <div><strong>06</strong><span>个人项目</span></div>
+          <div><strong>∞</strong><span>持续好奇</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-number">02</div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY TOOLKIT</p>
+        <h2>正在构建的<br>能力组合。</h2>
+      </div>
+      <div class="skill-grid reveal">
+        <article><span>01</span><h3>设计思维</h3><p>用户研究 · 原型设计 · 视觉表达</p></article>
+        <article><span>02</span><h3>前端开发</h3><p>HTML · CSS · JavaScript</p></article>
+        <article><span>03</span><h3>内容创作</h3><p>写作 · 摄影 · 视频剪辑</p></article>
+        <article><span>04</span><h3>协作沟通</h3><p>项目管理 · 公开表达 · 团队协作</p></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-number">03</div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>最近做过的<br>一些事情。</h2>
+      </div>
+      <div class="project-list">
+        <article class="project-card coral reveal">
+          <div class="project-meta"><span>01 / 产品设计</span><span>2026</span></div>
+          <div class="project-graphic"><span>校园</span><b>+</b><span>效率</span></div>
+          <div class="project-info"><div><h3>校园生活助手</h3><p>为大学生日常学习与活动设计的一站式信息工具。</p></div><a href="#" aria-label="查看校园生活助手项目">↗</a></div>
+        </article>
+        <article class="project-card blue reveal">
+          <div class="project-meta"><span>02 / WEB 开发</span><span>2025</span></div>
+          <div class="project-graphic code-graphic"><span>&lt;idea&gt;</span><b>→</b><span>online</span></div>
+          <div class="project-info"><div><h3>知识分享小站</h3><p>记录课程笔记、学习方法与灵感的轻量内容网站。</p></div><a href="#" aria-label="查看知识分享小站项目">↗</a></div>
+        </article>
+        <article class="project-card lime reveal">
+          <div class="project-meta"><span>03 / 社会实践</span><span>2025</span></div>
+          <div class="project-graphic"><span>社区</span><b>×</b><span>青年</span></div>
+          <div class="project-info"><div><h3>社区共创计划</h3><p>从访谈到落地，与伙伴一起改善社区公共空间体验。</p></div><a href="#" aria-label="查看社区共创计划">↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section-number">04</div>
+      <div class="section-heading reveal">
+        <p class="eyebrow">EXPERIENCE</p>
+        <h2>学习与成长<br>发生的地方。</h2>
+      </div>
+      <div class="timeline reveal">
+        <article><time>2024 — 至今</time><div><h3>你的大学 · 你的专业</h3><p>本科在读 / 在这里补充主修方向、奖项或成绩。</p></div></article>
+        <article><time>2025 — 至今</time><div><h3>学生组织 / 社团名称</h3><p>在这里填写你的角色，以及一次值得分享的贡献。</p></div></article>
+        <article><time>2025 夏</time><div><h3>实习 / 社会实践</h3><p>在这里填写机构名称、岗位与收获。</p></div></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <p class="eyebrow reveal">LET'S CONNECT</p>
+      <h2 class="reveal">有想法？<br><span>一起聊聊。</span></h2>
+      <a class="email-link reveal" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+      <div class="contact-footer">
+        <p>© <span id="year"></span> Ryan. Built with curiosity.</p>
+        <div><a href="https://github.com/ryankeydesigns">GitHub</a><a href="#">小红书</a><a href="#">LinkedIn</a></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
